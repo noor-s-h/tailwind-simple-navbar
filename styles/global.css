@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a, button {
+  @apply font-medium text-gray-400 hover:text-gray-800 transition-colors ease-in-out duration-200
+}
